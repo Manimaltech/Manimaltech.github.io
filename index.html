@@ -12,98 +12,67 @@
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
     <link rel="stylesheet" href="styles.css" />
-    <title>Web Design Mastery | RENTAL</title>
+    <title>ManimalWebsite | SERVICES</title>
   </head>
   <body>
     <header>
       <nav>
-        <div class="nav__header">
+        <div class="nav__header" id="home.html">
           <div class="nav__logo">
-            <a href="#">RENTAL</a>
+            <a href="#">MANIMAL</a>
           </div>
           <div class="nav__menu__btn" id="menu-btn">
             <i class="ri-menu-line"></i>
           </div>
         </div>
         <ul class="nav__links" id="nav-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#rent">Rent</a></li>
-          <li><a href="#ride">Ride</a></li>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="login.html">LogIn</a></li>
+          <li><a href="#Explore">Explore</a></li>
           <li><a href="#contact">Contact</a></li>
+          <li><a href="about.html">About Us</a></li>
         </ul>
         <div class="nav__btn">
           <button class="btn">Get Started</button>
         </div>
       </nav>
-      <div class="header__container" id="home">
-        <h1>PREMIUM CAR RENTAL</h1>
-        <form action="/">
-          <div class="input__group">
-            <label for="location">Pick up & Return location</label>
-            <input
-              type="text"
-              name="location"
-              id="location"
-              placeholder="Dallas, Texas"
-            />
-          </div>
-          <div class="input__group">
-            <label for="start">Start</label>
-            <input
-              type="text"
-              name="start"
-              id="start"
-              placeholder="Aug 16, 10:00 AM"
-            />
-          </div>
-          <div class="input__group">
-            <label for="stop">Stop</label>
-            <input
-              type="text"
-              name="stop"
-              id="stop"
-              placeholder="Aug 18, 10:00 PM"
-            />
-          </div>
-          <button class="btn">
-            <i class="ri-search-line"></i>
-          </button>
-        </form>
-        <img src="assets/header.png" alt="header" />
+      <div class="header__container">
+        <h1>"Tech Services That Power Your Creativity"</h1>
+        <img src="assets/vecteezy_high-end.png" alt="header" />
       </div>
       <a href="#about" class="scroll__down">
         <i class="ri-arrow-down-line"></i>
       </a>
     </header>
 
-    <section class="section__container range__container" id="about">
-      <h2 class="section__header">WIDE RANGE OF VEHICLES</h2>
+    <section class="section__container range__container" id="Explore">
+      <h2 class="section__header">WIDE RANGE OF SERVICES</h2>
       <div class="range__grid">
         <div class="range__card">
-          <img src="assets/range-1.jpg" alt="range" />
+          <img src="assets/image1.jpg" alt="range" />
           <div class="range__details">
-            <h4>CARS</h4>
+            <h4>Gaming 🎮</h4>
             <a href="#"><i class="ri-arrow-right-line"></i></a>
           </div>
         </div>
         <div class="range__card">
-          <img src="assets/range-2.jpg" alt="range" />
+          <img src="assets/sd_-abf-desktop-04_pbhfqi.jpg" alt="range" />
           <div class="range__details">
-            <h4>SUVS</h4>
+            <h4>Streaming 🎥</h4>
             <a href="#"><i class="ri-arrow-right-line"></i></a>
           </div>
         </div>
         <div class="range__card">
-          <img src="assets/range-3.jpg" alt="range" />
+          <img src="assets/pexels-tommyclopez-765139.jpg" alt="range" />
           <div class="range__details">
-            <h4>VANS</h4>
+            <h4>Podcasting 🎙️</h4>
             <a href="#"><i class="ri-arrow-right-line"></i></a>
           </div>
         </div>
         <div class="range__card">
-          <img src="assets/range-4.jpg" alt="range" />
+          <img src="assets/pexels-rdne-7414284.jpg" alt="range" />
           <div class="range__details">
-            <h4>ELECTRIC</h4>
+            <h4>Startup Support 🚀</h4>
             <a href="#"><i class="ri-arrow-right-line"></i></a>
           </div>
         </div>
@@ -112,27 +81,26 @@
 
     <section class="section__container location__container" id="rent">
       <div class="location__image">
-        <img src="assets/location.png" alt="location" />
+        <img src="assets/vecteezy_advanced.png" alt="location" />
       </div>
       <div class="location__content">
-        <h2 class="section__header">FIND CAR IN YOUR LOCATIONS</h2>
+        <h2 class="section__header">
+          Imagine having access to cutting-edge technology that makes your
+          dreams a reality.
+        </h2>
         <p>
-          Discover the perfect vehicle tailored to your needs, wherever you are.
-          Our 'Find Car in Your Locations' feature allows you to effortlessly
-          search and select from our premium fleet available near you. Whether
-          you're looking for a luxury sedan, a spacious SUV, or a sporty
-          convertible, our easy-to-use tool ensures you find the ideal car for
-          your journey. Simply enter your location, and let us connect you with
-          top-tier vehicles ready for rental.
+          Are you ready to bring your dreams to life? Whether you're a student,
+          a working professional, or someone just looking for a new adventure,
+          we've got something incredible for you!
         </p>
         <div class="location__btn">
-          <button class="btn">Find a Location</button>
+          <button class="btn">EXPLORE NOW</button>
         </div>
       </div>
     </section>
 
     <section class="select__container" id="ride">
-      <h2 class="section__header">PICK YOUR DREAM CAR TODAY</h2>
+      <h2 class="section__header">PICK YOUR GAME TODAY</h2>
       <!-- Slider main container -->
       <div class="swiper">
         <!-- Additional required wrapper -->
@@ -140,99 +108,31 @@
           <!-- Slides -->
           <div class="swiper-slide">
             <div class="select__card">
-              <img src="assets/select-1.png" alt="select" />
-              <div class="select__info">
-                <div class="select__info__card">
-                  <span><i class="ri-speed-up-line"></i></span>
-                  <h4>200 <span>km/h</span></h4>
-                </div>
-                <div class="select__info__card">
-                  <span><i class="ri-settings-5-line"></i></span>
-                  <h4>6 <span>speed</span></h4>
-                </div>
-                <div class="select__info__card">
-                  <span><i class="ri-roadster-line"></i></span>
-                  <h4>5 <span>seats</span></h4>
-                </div>
-                <div class="select__info__card">
-                  <span><i class="ri-signpost-line"></i></span>
-                  <h4>15 <span>milage</span></h4>
-                </div>
-              </div>
+              <img src="assets/gta-5-grand.png" alt="select" />
+              
             </div>
           </div>
           <div class="swiper-slide">
             <div class="select__card">
-              <img src="assets/select-2.png" alt="select" />
-              <div class="select__info">
-                <div class="select__info__card">
-                  <span><i class="ri-speed-up-line"></i></span>
-                  <h4>215 <span>km/h</span></h4>
-                </div>
-                <div class="select__info__card">
-                  <span><i class="ri-settings-5-line"></i></span>
-                  <h4>6 <span>speed</span></h4>
-                </div>
-                <div class="select__info__card">
-                  <span><i class="ri-roadster-line"></i></span>
-                  <h4>5 <span>seats</span></h4>
-                </div>
-                <div class="select__info__card">
-                  <span><i class="ri-signpost-line"></i></span>
-                  <h4>16 <span>milage</span></h4>
-                </div>
-              </div>
+              <img src="assets/pubg-4k.png" alt="select" />
+
             </div>
           </div>
           <div class="swiper-slide">
             <div class="select__card">
-              <img src="assets/select-3.png" alt="select" />
-              <div class="select__info">
-                <div class="select__info__card">
-                  <span><i class="ri-speed-up-line"></i></span>
-                  <h4>306 <span>km/h</span></h4>
-                </div>
-                <div class="select__info__card">
-                  <span><i class="ri-settings-5-line"></i></span>
-                  <h4>6 <span>speed</span></h4>
-                </div>
-                <div class="select__info__card">
-                  <span><i class="ri-roadster-line"></i></span>
-                  <h4>5 <span>seats</span></h4>
-                </div>
-                <div class="select__info__card">
-                  <span><i class="ri-signpost-line"></i></span>
-                  <h4>12 <span>milage</span></h4>
-                </div>
-              </div>
+              <img src="assets/CallofDuty.png" alt="select" />
+             
             </div>
           </div>
           <div class="swiper-slide">
             <div class="select__card">
-              <img src="assets/select-4.png" alt="select" />
-              <div class="select__info">
-                <div class="select__info__card">
-                  <span><i class="ri-speed-up-line"></i></span>
-                  <h4>350 <span>km/h</span></h4>
-                </div>
-                <div class="select__info__card">
-                  <span><i class="ri-settings-5-line"></i></span>
-                  <h4>6 <span>speed</span></h4>
-                </div>
-                <div class="select__info__card">
-                  <span><i class="ri-roadster-line"></i></span>
-                  <h4>2 <span>seats</span></h4>
-                </div>
-                <div class="select__info__card">
-                  <span><i class="ri-signpost-line"></i></span>
-                  <h4>08 <span>milage</span></h4>
-                </div>
-              </div>
+              <img src="assets/SpiderMan.png" alt="select" />
+              
             </div>
           </div>
           <div class="swiper-slide">
             <div class="select__card">
-              <img src="assets/select-5.png" alt="select" />
+              <img src="assets/vecteezy_ai-.png" alt="select" />
               <div class="select__info">
                 <div class="select__info__card">
                   <span><i class="ri-speed-up-line"></i></span>
@@ -255,16 +155,7 @@
           </div>
         </div>
       </div>
-      <form action="/" class="select__form">
-        <div class="select__price">
-          <span><i class="ri-price-tag-3-line"></i></span>
-          <div><span id="select-price">225</span> /day</div>
-        </div>
-        <div class="select__btns">
-          <button class="btn">View Details</button>
-          <button class="btn">Rent Now</button>
-        </div>
-      </form>
+      
     </section>
 
     <section class="section__container story__container">
@@ -272,71 +163,184 @@
       <div class="story__grid">
         <div class="story__card">
           <div class="story__date">
-            <span>12</span>
+            <span>01</span>
             <div>
-              <p>January</p>
+              <p>New AddOns</p>
               <p>2024</p>
             </div>
           </div>
-          <h4>Adventures on the Open Road</h4>
-          <p>
-            Join us as we dive into the exhilarating stories of travelers who
-            embarked on unforgettable journeys with PREMIUM CAR RENTAL.
+          <h4>Live Audio Mix Stream-Tune In and Feel the Vibe!🎧</h4>
+          <p> Join us for a dynamic, real-time audio mix experience, 
+              where beats flow seamlessly and the music never stops.
+              Whether you're looking to chill, groove, or get lost in sound, 
+              our live stream features a curated blend of genres, from mellow lo-fi 
+              and smooth jazz to upbeat electronic and indie hits.
           </p>
-          <img src="assets/story-1.jpg" alt="story" />
+          <img src="assets/goxlr.jpg" alt="story" />
         </div>
         <div class="story__card">
           <div class="story__date">
-            <span>04</span>
+            <span>02</span>
             <div>
-              <p>March</p>
+              <p>New AddOns</p>
               <p>2024</p>
             </div>
           </div>
-          <h4>Luxury and Comfort: Experiences</h4>
-          <p>
-            In this series, we highlight the luxurious touches, unparalleled
-            comfort, and exceptional service that make every ride.
+          <h4>Unlock Pro-Level Control with our Stream Decks! 🎮</h4>
+          <p> Take your streaming setup to the next level with the our Stream Decks
+              your personal command center for live content creation. Instantly switch scenes, 
+              trigger audio effects, launch media, and more, all with a single press of a customizable button. 
+              Perfect for streamers, podcasters, and content creators looking to enhance their workflow 
+              and engage with their audience seamlessly.
+
+
           </p>
-          <img src="assets/story-2.jpg" alt="story" />
+          <img src="assets/sd.jpg" alt="story" />
         </div>
         <div class="story__card">
           <div class="story__date">
-            <span>18</span>
+            <span>03</span>
             <div>
-              <p>June</p>
+              <p>New AddOns</p>
               <p>2024</p>
             </div>
           </div>
-          <h4>Cars that Adapt to Your Lifestyle</h4>
+          <h4>Studio-Quality Mic & Camera Combo for Flawless Streaming📷</h4>
           <p>
-            Read about how our versatile vehicles have seamlessly integrated
-            into the lives of professionals and families alike.
+              Level up your live streams, podcasts, and video calls with the perfect combo 
+              of high-quality audio and crystal-clear video. The Mic and Camera bundle 
+              ensures your voice is heard with stunning clarity, while your visuals remain sharp
+              and professional.
           </p>
-          <img src="assets/story-3.jpg" alt="story" />
+          <img src="assets/micandcam.jpg" alt="story" />
         </div>
       </div>
     </section>
 
     <section class="banner__container">
       <div class="banner__wrapper">
-        <img src="assets/banner-1.png" alt="banner" />
-        <img src="assets/banner-2.png" alt="banner" />
-        <img src="assets/banner-3.png" alt="banner" />
-        <img src="assets/banner-4.png" alt="banner" />
-        <img src="assets/banner-5.png" alt="banner" />
-        <img src="assets/banner-6.png" alt="banner" />
-        <img src="assets/banner-7.png" alt="banner" />
-        <img src="assets/banner-8.png" alt="banner" />
-        <img src="assets/banner-9.png" alt="banner" />
-        <img src="assets/banner-10.png" alt="banner" />
+        <img src="assets/wallpaperflare.com_wallpaper (7).png" alt="banner" />
+        <img src="assets/pubg1.png" alt="banner" />
+        <img src="assets/wallpaperflare.com_wallpaper (1).png" alt="banner" />
+        <img src="assets/wallpaperflare.com_wallpaper (8).png" alt="banner" />
+        <img src="assets/vecteezy_high-end.png" alt="banner" />
+        <img src="assets/bike.png" alt="banner" />
+        <img src="assets/vecteezy_advanced.png" alt="banner" />
+        <img src="assets/girls.png" alt="banner" />
+        <img src="assets/group.png" alt="banner" />
+        <img src="assets/vecteezy_ai-.png" alt="banner" />
+      </div>
+    </section>
+
+    <section class="pricing">
+      <h1>Subscription Plans</h1>
+      <div class="pricing-container">
+        <!-- Basic Plan -->
+        <div class="pricing-item">
+          <h2 class="plan-title">Basic</h2>
+          <p class="plan-price">₹5999<span>/month</span></p>
+          <ul class="plan-features">
+            <li>40 hours of PC usage per month.</li>
+            <li>Recording at 1080p at 120fps </li>
+            <li>Option to purchase extra hours.</li>   
+            <li>+Extras</li>         
+          </ul>
+          <a href="#" class="btn">Sign Up</a>
+        </div>
+
+        <!-- Standard Plan -->
+        <div class="pricing-item">
+          <h2 class="plan-title">Standard</h2>
+          <p class="plan-price">₹8999<span>/month</span></p>
+          <ul class="plan-features">
+            <li>60 hours of PC usage per month.</li>
+            <li>Recording at 1440p at 144 FPS.</li>
+            <li>Option to purchase extra hours.</li>
+            <li>+Extras</li>   
+          </ul>
+          <a href="#" class="btn">Sign Up</a>
+        </div>
+
+        <!-- Premium Plan -->
+        <div class="pricing-item">
+          <h2 class="plan-title">Premium</h2>
+          <p class="plan-price">₹12999<span>/month</span></p>
+          <ul class="plan-features">
+            <li>85 hours of PC usage per month.</li>
+            <li>Streaming at 1440p at 144 FPS.</li>
+            <li>Option to purchase extra hours.</li>
+            <li>+Extras</li>   
+          </ul>
+          <a href="#" class="btn">Sign Up</a>
+        </div>
+
+        <!-- Ultimate Plan -->
+        <div class="pricing-item featured">
+          <h2 class="plan-title">Ultimate</h2>
+          <p class="plan-price">₹16999<span>/month</span></p>
+          <ul class="plan-features">
+            <li>120 hours of PC usage per month.</li>
+            <li>Streaming at 1440p/4k at 144 FPS.</li>
+            <li>Option to purchase extra hours at Discounted Prices.</li>
+            <li>+Extras</li>   
+          </ul>
+          <a href="#" class="btn">Sign Up</a>
+        </div>
       </div>
     </section>
 
     <section class="download">
       <div class="section__container download__container">
         <div class="download__content">
-          <h2 class="section__header">PREMIUM CAR RENTAL</h2>
+          <h2 class="section__header">PREMIUM TECH SERVICES</h2>
+          <div class="contact-container">
+            <h1>Contact Us</h1>
+            <form id="contactForm" class="contact-form">
+              <!-- Name -->
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Enter your name"
+                  required
+                />
+                <small class="error-message" id="nameError"></small>
+              </div>
+
+              <!-- Email -->
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Enter your email"
+                  required
+                />
+                <small class="error-message" id="emailError"></small>
+              </div>
+
+              <!-- Phone Number -->
+              <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="Enter your phone number"
+                  required
+                />
+                <small class="error-message" id="phoneError"></small>
+              </div>
+
+              <!-- Submit Button -->
+              <button type="submit" class="submit-button">Submit</button>
+            </form>
+          </div>
+          <script src="script.js"></script>
+
           <div class="download__links">
             <a href="#">
               <img src="assets/apple.png" alt="apple" />
@@ -346,8 +350,8 @@
             </a>
           </div>
         </div>
-        <div class="download__image">
-          <img src="assets/download.png" alt="download" />
+        <div class="location__image">
+          <img src="assets/vecteezy_advanced.png" alt="location" />
         </div>
       </div>
     </section>
