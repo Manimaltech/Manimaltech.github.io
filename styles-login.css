@@ -1,0 +1,73 @@
+/* Reset and basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+body {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Navigation bar */
+  nav {
+    background-color: #4CAF50;
+    padding: 10px;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  /* Main Content Section */
+.main-content {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .main-content h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
+  
+  .main-content p {
+    margin-bottom: 30px;
+    font-size: 1.2em;
+  }
+  /* Button Styling */
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  /* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
