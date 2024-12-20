@@ -1057,7 +1057,7 @@ h1 {
   padding: 40px 20px;
 }
 
-.contact-container {
+/*.contact-container {
   display: flex;
   justify-content: space-between;
   gap: 20px;
