@@ -9,12 +9,14 @@
   --white: #ffffff;
   --max-width: 1200px;
   --header-font: "Syncopate", sans-serif;
+  --flex: 1 1 100%;
 }
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  --flex: 1 1 100%;
 }
 
 .section__container {
@@ -260,7 +262,7 @@ nav {
 }
 
 .range__card img {
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .range__card:hover img {
@@ -326,7 +328,7 @@ nav {
   padding-top: 5rem;
   margin-bottom: 5rem;
   background-image: url("images/select-bg.png");
-  background-position: top center;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -343,7 +345,7 @@ nav {
 }
 
 .swiper-slide {
-  max-width: 900px;
+  max-width: 400px;
 }
 
 .select__card img {
@@ -357,7 +359,7 @@ nav {
   max-width: 600px;
   margin-inline: auto;
   display: none;
-  align-items: center;
+  align-items: top center;
   justify-content: space-around;
   gap: 2rem;
 }
@@ -481,7 +483,6 @@ nav {
   left: 0;
   width: 100%;
   height: calc(50% - 5rem);
-  background-color: var(--text-dark);
   z-index: -1;
 }
 
