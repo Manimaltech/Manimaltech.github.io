@@ -20,7 +20,7 @@
       <nav>
         <div class="nav__header">
           <div class="nav__logo">
-            <a href="#">MANIMAL</a>
+            <a href="index.html">MANIMAL</a>
           </div>
           <div class="nav__menu__btn" id="menu-btn">
             <i class="ri-menu-line"></i>
@@ -30,7 +30,7 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="login.html">LogIn</a></li>
           <li><a href="#Explore">Explore</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="contact.html">Contact</a></li>
           <li><a href="about.html">About Us</a></li>
         </ul>
         <div class="nav__btn">
@@ -42,31 +42,69 @@
         <section class="download">
           <div class="section__container download__container">
             <div class="download__content">
-              <h2 class="section__header"><h5>TECH SERVICES</h5></h2>
-              <section class="contact-section">
-                <div class="contact-container">
-                  <!-- Contact Info -->
-                  <div class="contact-info">
-                    <h2>Our Address</h2>
-                    <p>123 Main Street, Suite 100</p>
-                    <p>New York, NY 10001</p>
-
-                    <h2>Phone</h2>
-                    <p><a href="tel:+11234567890">+1 (123) 456-7890</a></p>
-
-                    <h2>Email</h2>
-                    <p>
-                      <a href="mailto:info@company.com">info@company.com</a>
-                    </p>
+              <h2 class="section__header">PREMIUM TECH SERVICES</h2>
+              <div class="contact-container">
+                <form id="contactForm" class="contact-form">
+                  <!-- Name -->
+                  <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      placeholder="Enter your name"
+                      required
+                    />
+                    <small class="error-message" id="nameError"></small>
                   </div>
-                </div>
-              </section>
+
+                  <!-- Email -->
+                  <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      placeholder="Enter your email"
+                      required
+                    />
+                    <small class="error-message" id="emailError"></small>
+                  </div>
+
+                  <!-- Phone Number -->
+                  <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input
+                      type="tel"
+                      id="phone"
+                      name="phone"
+                      placeholder="Enter your phone number"
+                      required
+                    />
+                    <small class="error-message" id="phoneError"></small>
+                  </div>
+
+                  <!-- Submit Button -->
+                  <button type="submit" class="submit-button">Submit</button>
+                </form>
+              </div>
+              <script src="script.js"></script>
+
+              <div class="download__links">
+                <a href="#">
+                  <img src="images/apple.png" alt="apple" />
+                </a>
+                <a href="#">
+                  <img src="images/google.png" alt="google" />
+                </a>
+              </div>
             </div>
-            <div class="download__image">
-              <img src="images/vecteezy_advanced.png" alt="download" />
+            <div class="location__image">
+              <img src="images/vecteezy_advanced.png" alt="location" />
             </div>
           </div>
         </section>
+
         <section class="schedule">
           <h1>Call Schedule</h1>
           <div class="schedule-container">
@@ -114,24 +152,6 @@
         <i class="ri-arrow-down-line"></i>
       </a>
     </header>
-    <section class="download">
-      <div class="section__container download__container">
-        <div class="download__content">
-          <h2 class="section__header">PREMIUM TECH SERVICES</h2>
-          <div class="download__links">
-            <a href="#">
-              <img src="images/apple.png" alt="apple" />
-            </a>
-            <a href="#">
-              <img src="images/google.png" alt="google" />
-            </a>
-          </div>
-        </div>
-        <div class="download__image">
-          <img src="images/vecteezy_advanced.png" alt="download" />
-        </div>
-      </div>
-    </section>
 
     <section class="news" id="contact">
       <div class="section__container news__container">
