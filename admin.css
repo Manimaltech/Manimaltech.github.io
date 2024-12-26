@@ -1,0 +1,153 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and font settings */
+body {
+  font-family: 'Arial', sans-serif; /* Good-looking font */
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+  padding-top: 60px; /* Space for fixed nav */
+}
+
+/* Navigation styling */
+.nav__headers {
+  background-color: #333;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.nav__logos a {
+  font-size: 1.5em;
+  color: white;
+  text-decoration: none;
+}
+
+/* Navbar buttons */
+.nav__link1 {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav__link1 li {
+  display: inline-block;
+}
+
+.nav__link1 a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  background-color: #444;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.nav__link1 a:hover {
+  background-color: #555;
+}
+
+/* Container for content */
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* Customer list and messages section styles */
+h1 {
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table th, table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table th {
+  background-color: #f4f4f4;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Highlight the messages section with a yellow background */
+.container.messages-section {
+  background-color: #fff4b3; /* Yellow background for messages */
+  border-radius: 10px;
+  padding: 20px;
+}
+
+/* View message details */
+.message-details p {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+
+/* Mobile devices */
+@media (max-width: 768px) {
+  .nav__link1 {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .container {
+      padding: 15px;
+  }
+
+  table, th, td {
+      font-size: 0.9em;
+  }
+
+  .container.messages-section {
+      padding: 15px;
+  }
+
+  h1 {
+      font-size: 1.8em;
+  }
+}
+
+/* Larger screens (tablets and above) */
+@media (min-width: 769px) {
+  .nav__link1 {
+      display: flex;
+      justify-content: space-around;
+  }
+
+  table th, table td {
+      padding: 12px;
+  }
+
+  h1 {
+      font-size: 2em;
+  }
+}
+
